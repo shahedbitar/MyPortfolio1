@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahed's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        section {
+            padding: 2rem;
+            text-align: left;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1 style=text-align:center>Welcome to My Portfolio</h1>
+        <div style="text-align:center">
+        <img src="/Users/shahedmac/portfolio.jpg" alt="My Photo"> 
+        <br>
+        <button style=text-align:right>Learn More</button>
+            </div>
+    </section>
+
+    <section id="about">
+        <h2 style= "text-align:center">About Me</h2>
+        <p style= "text-align:center" >Hello, I'm Shahed Bitar, a second-year Software Engineering student with a passion for coding. I've worked with Java, JavaScript, and Python. I enjoy solving complex problems and have experience in various aspects of software development, from web applications to mobile apps. I'm looking to expand my programming skills with the goal of entering into leadership roles in the tech industry. I'm eager to collaborate on innovative projects and continue learning in the dynamic tech world.</p>
+
+    </section>
+    
+
+    <section id="experience">
+        <div style= "text-align:center">
+        <h2>Work Experience</h2>
+        <h3>Santa's Sled Ski</h3>
+        <p>Role: Developor</p>
+        <p>Release Date: November 2021</p>
+    
+        <h3>Goose Bumps</h3>
+        <p>Role: Developor</p>
+        <p>Release Date: March 2019</p>
+        </div>
+       
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Shahed's Portfolio</p>
+    </footer>
+</body>
+</html>
